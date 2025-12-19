@@ -14,8 +14,16 @@ body {
     display: flex;
     padding: 72px;
     border: 3px solid rgb(231, 134, 134);
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
 }
 
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
 .header {
     color: white;
@@ -33,7 +41,6 @@ body {
     display: flex;
     font-size: 18px;
     color: #E5E7EB;
-    list-style: none;
 }
 
 .header ul li a {
@@ -45,21 +52,55 @@ body {
 .sec-a .sec-a-left {
     display: flex;
     flex-direction: column;
+    width: 500px;
+}
 
+.sec-a .image {
+    display: flex;
+    height: 250px;  
+    width: 400px;
+    background-color: lightgray;
+    border: 2px solid darkgray;
+    justify-content: center;
+    align-items: center;
 }
 
 .sec-b {
     flex-direction: column;
+    text-align: center;
 }
 
-.sec-b ul{
+.sec-b ul {
     display: flex;
-    list-style: none;
+    justify-content: center;
+    gap: 48px;
 }
 
-.rounded-box {
+.sec-b ul li {
+    width: 72px;
+}
+
+.sec-b .rounded-box {
     border: 3px solid black;
     border-radius: 8px;
     height: 72px;
     width: 72px;
+}
+
+.sec-c {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    padding: 200px 40vh;
+}
+
+.sec-c .quote {
+    font-size: x-large;
+    color: gray;
+}
+
+.sec-c .sig {
+    font-size: large;
+    align-self: flex-end;
 }
