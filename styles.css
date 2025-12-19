@@ -104,3 +104,34 @@ ul {
     font-size: large;
     align-self: flex-end;
 }
+
+.sec-d .sec-d-box {
+    display: flex;
+    margin: 100px 300px;
+    border-radius: 12px;
+    background-color: blue;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-d .box {
+    display: flex;
+    color:white;
+    gap: 16px;
+}
+
+.sec-d .box .left {
+    display: flex;
+    flex-direction: column;
+}
+
+.sec-d .box .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 72px;
+    width: 124px;
+    border: 2px solid white;
+    border-radius: 8px;
+    
+}
