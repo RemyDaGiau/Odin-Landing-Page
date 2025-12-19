@@ -105,24 +105,22 @@ ul {
     align-self: flex-end;
 }
 
-.sec-d .sec-d-box {
+.sec-d .box {
     display: flex;
     margin: 100px 300px;
     border-radius: 12px;
     background-color: blue;
     align-items: center;
     justify-content: center;
-}
-
-.sec-d .box {
-    display: flex;
-    color:white;
+    color: white;
     gap: 16px;
+    padding: 16px; 
 }
 
 .sec-d .box .left {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .sec-d .box .button {
@@ -133,5 +131,4 @@ ul {
     width: 124px;
     border: 2px solid white;
     border-radius: 8px;
-    
 }
