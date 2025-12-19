@@ -5,7 +5,6 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    border: 3px solid rgb(231, 134, 134);   /*CUT*/
 }   
 
 h1,
@@ -22,7 +21,6 @@ p {
 .sec-d {
     display: flex;
     padding: 72px;
-    border: 3px solid rgb(231, 134, 134);  /*CUT*/
     justify-content: center;
     align-items: center;
     gap: 16px;
@@ -44,7 +42,6 @@ ul {
     padding: 24px 124px;
     justify-content: space-between;
     align-items: center;
-    border: 3px solid rgb(231, 134, 134);  /*CUT*/
 }
 
 .header p {
@@ -69,6 +66,8 @@ ul {
     flex: 1;
     background-color: #1F2937;
     color: white;
+    padding: 124px 56px;
+    gap: 40px;
 }
 
 .sec-a .left {
@@ -115,8 +114,8 @@ ul {
 .sec-b {
     flex-direction: column;
     text-align: center;
-    padding: 42px;
-    gap: 24px;
+    padding: 72px;
+    gap: 48px;
 }
 
 .sec-b .heading {
@@ -153,27 +152,30 @@ ul {
 }
 
 .sec-c .quote {
-    font-size: x-large;
-    color: gray;
+    font-size: 36px;
+    font-weight: 300;
+    color: rgb(88, 88, 88);
 }
 
 .sec-c .sig {
-    font-size: large;
+    font-size: 30px;
     align-self: flex-end;
+    font-weight: 600;
+    color: rgb(44, 44, 44);
 }
 
 /* SECTION D ---------------------------------------------------------------------------------------------------------------------------------- */
-
 .sec-d .box {
     display: flex;
-    margin: 100px 300px;
+    margin: 36px;
+    padding: 24px 72px;
     border-radius: 12px;
-    background-color: blue;
+    background-color: #3882f6;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     color: white;
-    gap: 16px;
-    padding: 16px; 
+    gap: 120px;
+
 }
 
 .sec-d .box .left {
@@ -186,10 +188,14 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 72px;
+    height: 50px;
     width: 124px;
     border: 2px solid white;
     border-radius: 8px;
+    background-color: #3882f6;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 /* FOOTER --------------------------------------------------------------------------------------------------------------------------------------- */
