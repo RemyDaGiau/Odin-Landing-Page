@@ -1,3 +1,4 @@
+/* SETUP -----------------------------------------------------------------------------------------------------------------------------------------*/
 body {
     font-family: "roboto", sans-serif, serif;
     margin: 0;
@@ -6,6 +7,14 @@ body {
     flex-direction: column;
     border: 3px solid rgb(231, 134, 134);
 }   
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
 
 .sec-a,
 .sec-b,
@@ -25,16 +34,21 @@ ul {
     padding: 0;
 }
 
+/* HEADER ------------------------------------------------------------------------------------------------------------------------------------ */
+
 .header {
     color: white;
     display: flex;
     flex-direction: row;
     background-color: #1F2937;
-    height: 72px;
-    padding: 24px 72px;
+    padding: 24px 124px;
     justify-content: space-between;
     align-items: center;
     border: 3px solid rgb(231, 134, 134);
+}
+
+.header p {
+    font-size: 24px;
 }
 
 .header ul {
@@ -49,22 +63,39 @@ ul {
     margin: 12px;
 }
 
+/* SECTION A ------------------------------------------------------------------------------------------------------------------------------------*/ 
+
 .sec-a {
     background-color: #1F2937;
     color: white;
 }
 
-.sec-a .sec-a-left {
+.sec-a .left {
     display: flex;
     flex-direction: column;
     width: 500px;
 }
 
-.sec-a .sec-a-left .button {
+.sec-a .left h2 {
+    font-size: 50px;
+}
+
+.sec-a .left p {
+    font-size: 24px;
+    color: rgb(141, 142, 156);
+}
+
+.sec-a .left .sign-up {
+    display: flex;
     background-color: #3882f6;
-    font-size: larger;
+    color:#ffffff;
+    font-size: 16px;
     font-weight: bold;
-    box-shadow: #1F2937;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+    padding: 8px 16px;
 }
 
 .sec-a .image {
@@ -76,6 +107,8 @@ ul {
     justify-content: center;
     align-items: center;
 }
+
+/* SECTION B ----------------------------------------------------------------------------------------------------------------------------------- */
 
 .sec-b {
     flex-direction: column;
@@ -99,6 +132,8 @@ ul {
     width: 72px;
 }
 
+/* SECTION C ----------------------------------------------------------------------------------------------------------------------------------- */
+
 .sec-c {
     flex-direction: column;
     align-items: center;
@@ -116,6 +151,8 @@ ul {
     font-size: large;
     align-self: flex-end;
 }
+
+/* SECTION D ---------------------------------------------------------------------------------------------------------------------------------- */
 
 .sec-d .box {
     display: flex;
@@ -135,7 +172,7 @@ ul {
     justify-content: center;
 }
 
-.sec-d .box .button {
+.sec-d .box button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -144,6 +181,8 @@ ul {
     border: 2px solid white;
     border-radius: 8px;
 }
+
+/* FOOTER --------------------------------------------------------------------------------------------------------------------------------------- */
 
 .footer {
     display:flex;
